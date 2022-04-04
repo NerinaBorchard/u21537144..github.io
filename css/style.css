@@ -1,0 +1,78 @@
+h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+
+  figure {
+    margin: 0 0 1rem;
+  }
+  
+  img,
+  svg {
+    vertical-align: middle;
+  }
+body{
+background-color: turquoise;
+}
+  .display-1 {
+    font-size: calc(1.625rem + 4.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  @media (min-width: 320px) {
+    .display-1 {
+      font-size: 5rem;
+    }
+  }
+  
+  .display-2 {
+    font-size: calc(1.575rem + 3.9vw);
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  @media (min-width: 320px) {
+    .display-2 {
+      font-size: 4.5rem;
+    }
+  }
+  
+  .display-3 {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 320;
+    line-height: 1.2;
+  }
+  @media (min-width: 330px) {
+    .display-3 {
+      font-size: 4rem;
+    }
+  }
+
+  .img-fluid {
+    max-width: 400px;
+    height: 600px;
+    margin-left: 75px;
+  }
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(1 * var(--bs-gutter-x));
+    margin-left: calc(1 * var(--bs-gutter-x));
+  }
+ 
+  .folio{
+      text-align: center;
+  }
+
+
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .about{
+      text-align: center;
+  }
